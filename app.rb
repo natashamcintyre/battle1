@@ -10,12 +10,12 @@ class Battle < Sinatra::Base
   post '/names' do
     session[:player_1] = params[:player_1]
     session[:player_2] = params[:player_2]
-    redirect_to '/play'
+    redirect '/play'
   end
 
   get '/play' do
-    @player_1 << session[:player_1].inspect
-    @player_2 << session[:player_2].inspect
+    @player_1 = session[:player_1].inspect
+    @player_2 = session[:player_2].inspect
     erb :play
   end
   # start the server if ruby file executed directly
