@@ -6,7 +6,7 @@ Building my first web app
 ```shell
 rackup -p ****
 ```
-Visit localhost:4567
+Visit localhost:****
 
 ## User Stories ##
 As two Players,
