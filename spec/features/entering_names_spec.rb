@@ -5,10 +5,7 @@ feature Battle do
   # end
 
   scenario 'see players names renders on screen' do
-    visit '/'
-    fill_in 'player_1', with: "Chris W"
-    fill_in 'player_2', with: "Chris A"
-    click_button "Submit"
+    sign_in_and_play
     expect(page).to have_content "Chris W"
     expect(page).to have_content "Chris A"
   end

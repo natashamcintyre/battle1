@@ -14,8 +14,8 @@ class Battle < Sinatra::Base
   end
 
   get '/play' do
-    @player_1 = session[:player_1].inspect
-    @player_2 = session[:player_2].inspect
+    @player_1 = session[:player_1]
+    @player_2 = session[:player_2]
     erb :play
   end
   # start the server if ruby file executed directly
