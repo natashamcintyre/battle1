@@ -18,6 +18,10 @@ class Game
     end
     @turn +=1
     @message
-    
   end
+
+  def over?
+    @player2.hp == 0 || @player1.hp == 0
+  end
+
 end
