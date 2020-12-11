@@ -9,7 +9,4 @@ describe Player do
     expect(player1.get_name).to eq name
   end
 
-  # it "attacking a player reduces hitpoints" do
-  #   expect { player1.attack(player2) }.to change { player2.hp }
-  # end
 end
