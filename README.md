@@ -8,6 +8,8 @@ rackup -p ****
 ```
 Visit localhost:****
 
+- Enter names for player 1 and player 2
+
 ## User Stories ##
 As two Players,
 So we can play a personalised game of Battle,

@@ -109,6 +109,6 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 
-config.include Capybara::DSL
+# config.include Capybara::DSL
 
 end
