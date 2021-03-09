@@ -1,11 +1,11 @@
-# Battle
-A small 'battle' web application game.
+# Name
+Short description of project
 
 ## Motivation
-A project to test the ability to pair program, TDD, OOD, in the web environment.
+Why is it created
 
 ## Build status
-Just Started
+Just Started / In progress / Finished?
 
 ## Screenshots
 Include logo/demo screenshot etc.
